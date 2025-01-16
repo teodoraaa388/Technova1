@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background: #004080;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #f4f4f4;
+  }
+  
+  .hero h1 {
+    color: #004080;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #004080;
+    color: white;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .services {
+    background: #f9f9f9;
+  }
+  
+  .service-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  .contact button {
+    padding: 0.5rem;
+    background: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    background: #004080;
+    color: white;
+    padding: 1rem 0;
+  }
